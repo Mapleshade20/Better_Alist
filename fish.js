@@ -219,12 +219,12 @@ var FISH = function(renderer){
 };
 FISH.prototype = {
 	GRAVITY : 0.4,
-	
+	fishSpeed : 0.7,
 	init : function(){
 		this.direction = Math.random() < 0.5;
 		this.x = this.direction ? (this.renderer.width + this.renderer.THRESHOLD) : -this.renderer.THRESHOLD;
 		this.previousY = this.y;
-		this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1);
+		this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1) * fishSpeed;
 		
 		if(this.renderer.reverse){
 			this.y = this.getRandomValue(this.renderer.height * 1 / 10, this.renderer.height * 4 / 10);
