@@ -218,8 +218,8 @@ var FISH = function(renderer){
 	this.init();
 };
 FISH.prototype = {
-	GRAVITY : 0.4,
-	fishSpeed : 0.7,
+	GRAVITY : 0.35,
+	fishSpeed : 0.6,
 	init : function(){
 		this.direction = Math.random() < 0.5;
 		this.x = this.direction ? (this.renderer.width + this.renderer.THRESHOLD) : -this.renderer.THRESHOLD;
