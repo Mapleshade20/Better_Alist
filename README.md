@@ -39,7 +39,3 @@
 
 * 暗色主题
 ![dark-20240425181503](https://github.com/TheSmallHanCat/Better_Alist/assets/109069769/24f1a8ad-76b5-4f19-8a26-c541e97b36b9)
-
-* 点击猫猫即可返回顶部
-![20240425181635](https://github.com/TheSmallHanCat/Better_Alist/assets/109069769/7b006d58-612c-47e4-83d9-7f6c8b6ebf41)
-
